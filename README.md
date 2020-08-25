@@ -10,6 +10,10 @@ dependencies:
     branch: master
 ```
 
+Then... 
+
+```shards install```
+
 ## Usage
 ```
 require "Serva"
