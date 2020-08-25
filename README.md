@@ -3,7 +3,7 @@
 Key Value Server to persist key value data. 
 
 ## Installation
-```
+```crystal
 dependencies:
   openssl:
     github: https://github.com/randiaz95/serva
@@ -15,7 +15,7 @@ Then...
 ```shards install```
 
 ## Usage
-```
+```crystal
 require "Serva"
 
 # Test connection
