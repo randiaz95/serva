@@ -1,14 +1,32 @@
 # serva
 
-TODO: Write a description here
+Key Value Server to persist key value data. 
 
 ## Installation
 
-TODO: Write installation instructions here
+
+`
+dependencies:
+  openssl:
+    github: https://github.com/randiaz95/serva
+    branch: master
+`
 
 ## Usage
 
-TODO: Write usage instructions here
+`
+require "Serva"
+
+# Test connection
+e = Serva::Engine.new("sqlite3://data.db")
+
+# Print non-existing key
+puts e["missing_key"]
+
+# Try to create a new key and then get it
+e["new_key"] = "new_value"
+puts e["new_key"]
+`
 
 ## Development
 
@@ -24,4 +42,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [Randy Diaz](https://github.com/randiaz95) - creator and maintainer

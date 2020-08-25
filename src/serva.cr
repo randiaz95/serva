@@ -58,14 +58,3 @@ module Serva
   end
 
 end
-
-# Test connection
-e = Serva::Engine.new("sqlite3://data.db")
-
-# Print non-existing key
-puts e["missing_key"]
-
-# Try to create a new key and then get it
-e["new_key"] = "new_value"
-puts e["new_key"]
-
