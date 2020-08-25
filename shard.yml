@@ -1,0 +1,17 @@
+name: serva
+version: 0.1.0
+
+authors:
+  - Randiaz
+
+targets:
+  serva:
+    main: src/serva.cr
+
+dependencies:
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+crystal: 0.35.0
+
+license: MIT
