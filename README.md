@@ -3,18 +3,15 @@
 Key Value Server to persist key value data. 
 
 ## Installation
-
-
-`
+```
 dependencies:
   openssl:
     github: https://github.com/randiaz95/serva
     branch: master
-`
+```
 
 ## Usage
-
-`
+```
 require "Serva"
 
 # Test connection
@@ -26,7 +23,7 @@ puts e["missing_key"]
 # Try to create a new key and then get it
 e["new_key"] = "new_value"
 puts e["new_key"]
-`
+```
 
 ## Development
 
