@@ -3,6 +3,14 @@
 Key Value Server to persist key value data. 
 
 ## Installation
+
+First go into a terminal with crystal installed:
+
+```crystal --version```
+```crystal init app *appname*```
+
+Go into the shards.yml file and copy the following dependency:
+
 ```crystal
 dependencies:
   serva:
@@ -13,6 +21,9 @@ dependencies:
 Then... 
 
 ```shards install```
+
+Now you can:
+```require "serva"```
 
 ## Usage
 ```crystal
