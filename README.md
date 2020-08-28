@@ -5,8 +5,8 @@ Key Value Server to persist key value data.
 ## Installation
 ```crystal
 dependencies:
-  openssl:
-    github: https://github.com/randiaz95/serva
+  serva:
+    github: randiaz95/serva
     branch: master
 ```
 
